@@ -1,0 +1,46 @@
+.theme--light.v-btn:not(.v-btn--icon):not(.v-btn--flat) {
+  background-color: #f5f5f5;
+}
+tbody > tr > td, .table-bordered > tfoot > tr > td {
+  border: 1px solid #225f2c;
+}
+.card-header {
+  padding: 12px 20px;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: rgba(40, 167, 69, .25);
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.card-footer {
+  padding: 12px 20px;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: rgba(40, 167, 69, .25);
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.vertical-menu {
+  width: fit-content; /* Set a width if you like */
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #f7f8fb;
+  border-right: 1px groove;
+}
+
+.vertical-menu a {
+  background-color: #8485ab; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
