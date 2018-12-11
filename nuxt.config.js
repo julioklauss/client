@@ -19,7 +19,7 @@ module.exports = {
   modules: ['@nuxtjs/auth', '@nuxtjs/axios', 'bootstrap-vue/nuxt'],
 
   axios: {
-    baseURL: 'https://boiling-garden-61775.herokuapp.com/'
+    baseURL: 'https://stormy-dawn-86632.herokuapp.com/'
   },
   auth: {
     strategies: {
