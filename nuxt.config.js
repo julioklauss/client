@@ -19,7 +19,7 @@ module.exports = {
   modules: ['@nuxtjs/auth', '@nuxtjs/axios', 'bootstrap-vue/nuxt'],
 
   axios: {
-    baseURL: 'https://stormy-dawn-86632.herokuapp.com/'
+    baseURL: 'https://stormy-dawn-86632.herokuapp.com/api/'
   },
   auth: {
     strategies: {
